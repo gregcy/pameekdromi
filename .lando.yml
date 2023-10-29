@@ -1,11 +1,11 @@
-name: gregandfroso
-recipe: drupal9
+name: pameekdromi
+recipe: drupal10
 config:
   webroot: web
   via: nginx
-  php: '8.2'
-  database: 'mysql:8.0'
-  composer_version: 2.5.7
+  php: "8.1"
+  database: "mysql:8.0"
+  composer_version: 2.6.5
   xdebug: false
   config:
     php: .lando.php.ini
